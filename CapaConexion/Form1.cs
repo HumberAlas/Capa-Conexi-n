@@ -23,10 +23,20 @@ namespace CapaConexion
                 SqlConnection conexion =
             new SqlConnection
             ("Data Source=DESKTOP-3MJVPOK;Initial Catalog=Northwind;Integrated Security=True;");
-                conexion.Open();
-                MessageBox.Show("Conectado");
-                conexion.Close();
-                MessageBox.Show("Gracias, Conexion finalizada");
+            MessageBox.Show("Conexion creada");
+            conexion.Open();
+            string selectFrom = "SELECT * FROM [dbo].[Customers]";
+
+            SqlCommand comando = new SqlCommand(selectFrom, conexion);
+            SqlDataReader reader = comando.ExecuteReader();
+
+            while (reader.Read())
+            {
+                var customerId = reader[0];
+            }
+
+            MessageBox.Show("Conexion cerrada");
+            conexion.Close();
         }
     }
 }
