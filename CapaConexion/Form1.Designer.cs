@@ -50,9 +50,9 @@
             // 
             this.bntCargar.Location = new System.Drawing.Point(12, 388);
             this.bntCargar.Name = "bntCargar";
-            this.bntCargar.Size = new System.Drawing.Size(75, 23);
+            this.bntCargar.Size = new System.Drawing.Size(138, 39);
             this.bntCargar.TabIndex = 1;
-            this.bntCargar.Text = "button1";
+            this.bntCargar.Text = "Cargar información";
             this.bntCargar.UseVisualStyleBackColor = true;
             this.bntCargar.Click += new System.EventHandler(this.btnCargar_Click);
             // 
