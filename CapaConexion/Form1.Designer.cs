@@ -54,7 +54,7 @@
             this.bntCargar.TabIndex = 1;
             this.bntCargar.Text = "button1";
             this.bntCargar.UseVisualStyleBackColor = true;
-            this.bntCargar.Click += new System.EventHandler(this.bntCargar_Click);
+            this.bntCargar.Click += new System.EventHandler(this.btnCargar_Click);
             // 
             // Filtros
             // 
