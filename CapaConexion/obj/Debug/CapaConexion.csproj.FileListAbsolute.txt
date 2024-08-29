@@ -8,3 +8,6 @@ C:\Users\Administrador\Desktop\Progra2\CapaConexion\CapaConexion\obj\Debug\CapaC
 C:\Users\Administrador\Desktop\Progra2\CapaConexion\CapaConexion\obj\Debug\CapaConexion.csproj.CoreCompileInputs.cache
 C:\Users\Administrador\Desktop\Progra2\CapaConexion\CapaConexion\obj\Debug\CapaConexion.exe
 C:\Users\Administrador\Desktop\Progra2\CapaConexion\CapaConexion\obj\Debug\CapaConexion.pdb
+C:\Users\Administrador\Desktop\Progra2\CapaConexion\CapaConexion\bin\Debug\DatosLayer.dll
+C:\Users\Administrador\Desktop\Progra2\CapaConexion\CapaConexion\bin\Debug\DatosLayer.pdb
+C:\Users\Administrador\Desktop\Progra2\CapaConexion\CapaConexion\obj\Debug\CapaConexion.csproj.CopyComplete

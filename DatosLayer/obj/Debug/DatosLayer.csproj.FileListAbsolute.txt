@@ -1,0 +1,6 @@
+C:\Users\Administrador\Desktop\Progra2\CapaConexion\DatosLayer\bin\Debug\DatosLayer.dll
+C:\Users\Administrador\Desktop\Progra2\CapaConexion\DatosLayer\bin\Debug\DatosLayer.pdb
+C:\Users\Administrador\Desktop\Progra2\CapaConexion\DatosLayer\obj\Debug\DatosLayer.csproj.AssemblyReference.cache
+C:\Users\Administrador\Desktop\Progra2\CapaConexion\DatosLayer\obj\Debug\DatosLayer.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Desktop\Progra2\CapaConexion\DatosLayer\obj\Debug\DatosLayer.dll
+C:\Users\Administrador\Desktop\Progra2\CapaConexion\DatosLayer\obj\Debug\DatosLayer.pdb
