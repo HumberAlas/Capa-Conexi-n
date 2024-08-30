@@ -32,6 +32,9 @@
             this.bntCargar = new System.Windows.Forms.Button();
             this.Filtros = new System.Windows.Forms.Label();
             this.tbFiltro = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.btnBuscar = new System.Windows.Forms.Button();
+            this.txtBuscar = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGrid)).BeginInit();
             this.SuspendLayout();
             // 
@@ -42,7 +45,7 @@
             this.dataGrid.Name = "dataGrid";
             this.dataGrid.RowHeadersWidth = 51;
             this.dataGrid.RowTemplate.Height = 24;
-            this.dataGrid.Size = new System.Drawing.Size(947, 285);
+            this.dataGrid.Size = new System.Drawing.Size(746, 285);
             this.dataGrid.TabIndex = 0;
             this.dataGrid.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -73,11 +76,40 @@
             this.tbFiltro.TabIndex = 3;
             this.tbFiltro.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(832, 129);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(87, 16);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "Customers ID";
+            // 
+            // btnBuscar
+            // 
+            this.btnBuscar.Location = new System.Drawing.Point(835, 243);
+            this.btnBuscar.Name = "btnBuscar";
+            this.btnBuscar.Size = new System.Drawing.Size(127, 23);
+            this.btnBuscar.TabIndex = 5;
+            this.btnBuscar.Text = "Buscar Cliente";
+            this.btnBuscar.UseVisualStyleBackColor = true;
+            this.btnBuscar.Click += new System.EventHandler(this.bntBuscar_Click);
+            // 
+            // txtBuscar
+            // 
+            this.txtBuscar.Location = new System.Drawing.Point(940, 126);
+            this.txtBuscar.Name = "txtBuscar";
+            this.txtBuscar.Size = new System.Drawing.Size(100, 22);
+            this.txtBuscar.TabIndex = 6;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(967, 450);
+            this.ClientSize = new System.Drawing.Size(1142, 450);
+            this.Controls.Add(this.txtBuscar);
+            this.Controls.Add(this.btnBuscar);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.tbFiltro);
             this.Controls.Add(this.Filtros);
             this.Controls.Add(this.bntCargar);
@@ -97,6 +129,9 @@
         private System.Windows.Forms.Button bntCargar;
         private System.Windows.Forms.Label Filtros;
         private System.Windows.Forms.TextBox tbFiltro;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnBuscar;
+        private System.Windows.Forms.TextBox txtBuscar;
     }
 }
 
